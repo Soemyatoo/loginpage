@@ -1,0 +1,83 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f0f0f0;
+    }
+    .container {
+      display: flex;
+      width: 800px;
+      height: 400px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+    .login-section, .signup-section {
+      flex: 1;
+      padding: 40px;
+    }
+    .login-section {
+      border-right: 1px solid #ddd;
+    }
+    h1 {
+      margin: 0 0 20px;
+      font-size: 24px;
+    }
+    .social-login {
+      margin: 20px 0;
+    }
+    .social-login button {
+      margin-right: 10px;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .social-login .facebook { background: #3b5998; color: white; }
+    .social-login .google { background: #db4437; color: white; }
+    .social-login .linkedin { background: #0077b5; color: white; }
+    .input-group {
+      margin-bottom: 20px;
+    }
+    .input-group label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    .input-group input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background-color: #28a745;
+      color: white;
+      text-align: center;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      align-items: center;
+    }
+    .signup-section {
+      background: #eafaf1;
+      text-align: center;
+    }
+    .signup-section h2 {
+      margin-bottom: 20px;
+      font-size: 20px;
+    }
+    .signup-section .btn {
+      width: auto;
+      padding: 10px 40px;
+      align-items: center;
+      margin-left:100px ;
+    }
